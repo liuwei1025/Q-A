@@ -1,6 +1,6 @@
 # Sample workflow for building and deploying a VitePress site to GitHub Pages
 #
-name: Deploy VitePress site to Pages
+name: Deploy Q&A with chatGPT site to Pages
 
 on:
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
@@ -44,9 +44,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install # or pnpm install / yarn install / bun install
       - name: Build with VitePress
-        run: |
-          pnpm docs:build
-          touch docs/.vitepress/dist/.nojekyll
+        run: pnpm docs:build
+      - name: Touch Nojekyll
+        run: touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
