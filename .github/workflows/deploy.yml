@@ -47,7 +47,6 @@ jobs:
         run: |
           pnpm docs:build
           touch .vitepress/dist/.nojekyll
-      - name: Touch Nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
