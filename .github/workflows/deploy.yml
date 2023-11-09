@@ -44,7 +44,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install # or pnpm install / yarn install / bun install
       - name: Build with VitePress
-        run: pnpm docs:build
+        run: |
+          pnpm docs:build
+          ls -h
+          pwd
+          mkdir -p docs/.vitepress/dist
       - name: Touch Nojekyll
         run: touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
