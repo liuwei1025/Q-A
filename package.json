@@ -7,5 +7,9 @@
   "devDependencies": {
     "vitepress": "1.0.0-rc.25"
   },
-  "packageManager": "pnpm@7.9.5"
+  "packageManager": "pnpm@7.9.5",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
 }
