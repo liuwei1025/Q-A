@@ -54,7 +54,7 @@ export const createStore = ((createState) =>
   createState ? createStoreImpl(createState) : createStoreImpl) as CreateStore
 ```
 
-可以看到如果移除了注释和外层包装方法之后，只有`30`行代码，而实现逻辑是一个发布订阅，而且订阅需要自己`subscribe`，而不是在get阶段就自动订阅
+可以看到如果移除了注释和外层包装方法之后，只有`30`行代码，而实现逻辑是一个简单的响应式，而且订阅需要自己`subscribe`，而不是在get阶段就自动订阅
 
 ### 使用示例
 

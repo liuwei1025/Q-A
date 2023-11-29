@@ -25,6 +25,16 @@ export default defineConfig({
               { text: '2023.11.09', link: '/chatGPT/joycoderfe-2023_11_9' },
               { text: 'Zustand', link: '/chatGPT/2023_11_11' },
               { text: 'zustand源码分析', link: '/zustand/index' },
+              { text: 'zustand最佳实践', link: '/zustand/practice' },
+              {
+                text: 'storybook',
+                items: [
+                  {
+                    text: 'addons',
+                    link: '/storybook/addons',
+                  },
+                ],
+              },
             ],
           },
         ],
@@ -38,5 +48,5 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
-  lastUpdated: true
+  lastUpdated: true,
 })
