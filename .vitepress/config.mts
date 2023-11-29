@@ -27,7 +27,7 @@ export default defineConfig({
                 text: 'Zustand',
                 items: [
                   { text: '初识Zustand', link: '/chatGPT/2023_11_11' },
-                  { text: 'zustand源码分析', link: '/zustand/index' },
+                  { text: 'zustand源码分析', link: '/zustand/source' },
                   { text: 'zustand最佳实践', link: '/zustand/practice' },
                 ],
               },
