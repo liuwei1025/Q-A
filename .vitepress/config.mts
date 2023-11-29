@@ -25,8 +25,8 @@ export default defineConfig({
               { text: '函数式编程', link: '/chatGPT/joycoderfe-2023_11_9' },
               {
                 text: 'Zustand',
-                link: '/chatGPT/2023_11_11',
                 items: [
+                  { text: '初识Zustand', link: '/chatGPT/2023_11_11' },
                   { text: 'zustand源码分析', link: '/zustand/index' },
                   { text: 'zustand最佳实践', link: '/zustand/practice' },
                 ],
