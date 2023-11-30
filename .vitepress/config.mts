@@ -40,6 +40,15 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: 'Typescript',
+                items: [
+                  {
+                    text: '日常工具集合',
+                    link: '/typescript/utils',
+                  },
+                ],
+              },
             ],
           },
         ],
