@@ -51,6 +51,15 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: '2024.01',
+            items: [
+              {
+                text: '问题分析模型',
+                link: '/chatGPT/JoyCoderFE-Chat-2024_1_17.md'
+              }
+            ]
+          }
         ],
       },
     ],
