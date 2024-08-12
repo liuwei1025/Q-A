@@ -64,7 +64,7 @@ export default defineConfig({
             text: '2024.08',
             items: [
               {
-                text: 'pnpm workspace中升级Vue版本',
+                text: 'monorepo中升级Vue版本',
                 link: '/chatGPT/upgrade vue version.md'
               }
             ]
