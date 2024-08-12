@@ -59,6 +59,15 @@ export default defineConfig({
                 link: '/chatGPT/JoyCoderFE-Chat-2024_1_17.md'
               }
             ]
+          },
+          {
+            text: '2024.08',
+            items: [
+              {
+                text: 'pnpm workspace中升级Vue版本',
+                link: '/chatGPT/upgrade vue version.md'
+              }
+            ]
           }
         ],
       },
